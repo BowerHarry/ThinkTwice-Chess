@@ -1,0 +1,111 @@
+/* client/src/index.css */
+/* Add these styles to set the height and width */
+/* .app {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    flex: 1
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    flex: 1
+} */
+
+@media only screen and (orientation: landscape) {
+    .app-container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .game-container {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+        flex: 1;
+    }
+    
+    .top {
+        height: 15%;
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .bottom {
+        height: 15%;
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .col {
+        flex: 1;
+        width: auto;
+    }
+    .left {
+        margin-right: 8px;
+        flex: 0.5;
+    }
+    
+    .right {
+        margin-left: 8px;
+        flex: 0.5;
+    }
+    
+}
+
+@media only screen and (orientation: portrait) {
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .app-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .game-container {
+        height: 100vh;
+        width: 80vw;
+        margin: 0;
+        padding: 0; 
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top {
+        min-height: 10vh;
+        height: 100vh - 95vw;
+        width: 95vw;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .bottom {
+        min-height: 10vh;
+        height: 100vh - 95vw;
+        width: 95vw;
+        margin: 0;
+        padding: 0; 
+    }
+    
+}

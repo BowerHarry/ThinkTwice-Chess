@@ -1,0 +1,39 @@
+/* .game {
+    max-height: 70vh;
+    overflow: hidden;
+    max-width: 80vw;
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+} */
+
+@media only screen and (orientation: portrait) {
+    .game {
+        max-height: 95vw;
+        overflow: hidden;
+        max-width: 95vw;
+        margin: 0 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .game {
+        max-height: 70vh;
+        overflow: hidden;
+        max-width: 70vh;
+        margin: 0 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+}

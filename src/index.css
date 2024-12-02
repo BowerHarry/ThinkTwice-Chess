@@ -1,0 +1,25 @@
+/* client/src/index.css */
+/* Add these styles to set the height and width */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    flex: 1
+ 
+}
+
