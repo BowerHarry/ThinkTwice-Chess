@@ -11,7 +11,7 @@ const PlayerAvatar = ({ type }) => {
                     <Avatar src={type === "human" ? human : robot} /> 
                 </div>
                 <div>
-                    {type === "human" ? "Human" : "Robot"}
+                    {type === "human" ? "Human" : "Robot Deploy Test"}
                 </div>
             </div>
             
