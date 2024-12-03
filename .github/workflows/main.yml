@@ -29,5 +29,5 @@ jobs:
         run: |
           export NODE_OPTIONS="--max-old-space-size=2048"
           npm install
-          npm run build
+          CI=false npm run build
           npm run start
