@@ -27,7 +27,7 @@ jobs:
           node-version: "14"
       - name: "Install & build"
         run: |
-          export NODE_OPTIONS="--max-old-space-size=8192"
+          export NODE_OPTIONS="--max-old-space-size=2048"
           npm install
           npm run build
           npm run start
